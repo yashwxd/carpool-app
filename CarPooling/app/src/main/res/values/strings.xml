@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CarPooling</string>
+    <string name="title_offeride">Offer Ride</string>
+    <string name="title_bookride">Book Ride</string>
+    <string name="title_offeredrides">Offered Ride</string>
+    <string name="title_bookedrides">Booked Ride</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_address">Adress required</string>
+    <string name="input_error_Occupation">Occupation required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_correct_password">Correct password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+
+    <string name="input_error_ridename">Please Enter Ride name</string>
+    <string name="input_error_pickup">Pick Up Point Required</string>
+    <string name="input_error_Dropoff">Drop off Point Required</string>
+    <string name="input_error_Checkpoint">Checkpoint  Required</string>
+    <string name="input_error_carmodel">Carmodel required</string>
+    <string name="input_error_Vehicleno">Vehicleno required</string>
+    <string name="input_error_noofpersons">No of Persons required</string>
+    <string name="input_error_Date">Date Required</string>
+    <string name="input_error_time">Time Required</string>
+    <string name="input_error_chargeperkm">Per Km Charge Required</string>
+
+</resources>

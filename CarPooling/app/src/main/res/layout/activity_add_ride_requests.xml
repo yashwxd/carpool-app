@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Add Ride Requests"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView4">
+
+        <EditText
+            android:id="@+id/personname_addriderequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Person Name"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/mobilno_addriderequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Mobile No"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/ridename_addriderequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Ride Name"
+
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/pickup_addriderequests"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Pick up point"
+
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/dropmePpoint_addriderequests"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Drop off point"
+
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/checkpoints_addriderequests"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Checkpoints in the way"
+
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/noofperson_addriderequests"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Number of person"
+            android:inputType="number"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/date_addriderequests"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Date"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/time_addriderequests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded"
+            android:elevation="5dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="Time"
+
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_addriderequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="64dp"
+        app:backgroundTint="@color/Arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:srcCompat="@drawable/ic_baseline_directions_bike_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center_vertical"
+        android:text="Add Ride"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/fab_addriderequests"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

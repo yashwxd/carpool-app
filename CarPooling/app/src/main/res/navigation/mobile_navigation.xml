@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_offeride">
+
+    <fragment
+        android:id="@+id/navigation_offeride"
+        android:name="com.dd.carpooling.ui.home.HomeFragment"
+        android:label="@string/title_offeride"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_bookride"
+        android:name="com.dd.carpooling.ui.dashboard.DashboardFragment"
+        android:label="@string/title_bookride"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_offeredride"
+        android:name="com.dd.carpooling.ui.notifications.NotificationsFragment"
+        android:label="@string/title_offeredrides"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_bookedride"
+        android:name="com.dd.carpooling.ui.bookedrides.BookedridesFragment"
+        android:label="@string/title_bookedrides"
+        tools:layout="@layout/fragment_bookedrides" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.dd.carpooling.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
